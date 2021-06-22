@@ -53,6 +53,9 @@ a{
     grid-template-columns: 1fr;
     text-align: center;
     }
+    #map{
+        width: 576px;
+    }
 }
 @media (max-width: 576px){
     .pgrid{
