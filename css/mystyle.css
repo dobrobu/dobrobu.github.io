@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 38pt;
+    display: inline;
+
+}
+.site-logo{
+    width: 250px;
+}
+.pgrid{
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.p-htitle{
+    padding-top: 85px;
+}
+.indigo{
+    background-color: #6610f2;
+}
+.red{
+   background-color:  #dc3545;
+}
+.calculator{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+@media (max-width: 992px){
+    
+    .calculator{
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;}
+}
+@media (max-width: 768px){
+    .pgrid{
+        grid-template-columns: 1fr ;
+        font-size: 16pt;
+    }
+    .calculator{
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .pgrid{
+        grid-template-columns: 1fr ;
+      
+    }
+   
+}
+
+#credittable{
+    width:100%;
+    color: black;
+    border: 2px solid black; 
+
+}
+th{
+   border: 2px solid black;
+   text-align: center; 
+}
+td{
+    width:min-content ;
+    border: 2px solid grey; 
+    padding: 5px;
+}
+.month{
+    width: 20%;
+}

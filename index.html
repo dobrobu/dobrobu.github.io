@@ -1,751 +1,360 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>CeresDesign</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+  <head>
+    <title>Кредитна спілка "ДОБРОБУТ"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Favico -->
-        <link href="favicon.i7co" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">CeresDesign</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                        
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                    </div>
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+
+    <link rel="icon" href="./favicon.png"> 
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+        
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0 fw-bolder text-decoration-none"><img src="./images/logo.png" alt="logo" id="logo" class="d-inline">    ДОБРОБУТ </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link fs-5"><i class="fas fa-landmark"></i> Головна</a></li>
+                <li><a href="#about-section" class="nav-link fs-5"><i class="fas fa-info-circle"></i> Про нас</a></li>
+                <li><a href="#credit-section" class="nav-link fs-5"><i class="fas fa-percent"></i> Кредити</a></li>
+                <li><a href="#deposit-section" class="nav-link fs-5" style="display:none;">Депозити</a></li>
+            
+
+                <li><a href="#contact-section" class="nav-link fs-5"> <i class="fas fa-comment-dots"></i> Контакт</a></li>
+                <li class="social"><a href="#contact-section" class="nav-link">+38(067) 567 23 23</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Доступні кредити</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="250"></p>
+                
+              </div>
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Сприятливе кредитування</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="300">20% річних - реальна процентна ставка. Без додаткових платежів</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#credit-section" target="_blank" class="btn  btn-primary mr-2 mb-2">Детальніше</a>
                 </div>
+              </div>
+
+             
+
+              
+
+              
+
             </div>
+          </div>
+            
         </div>
-        <!-- Nav Bar End -->
+      </div>
+
+      <a href="#about-section" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>  
 
 
-        <!-- Hero Start -->
-        <div class="hero" id="home">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-content">
-                            <div class="hero-text">
-                                <p>I'm</p>
-                                <h1>Dmytro Zavhorodnii</h1>
-                                <h2></h2>
-                                <div class="typed-text">Web Designer, Web Developer, Front End Developer</div>
-                            </div>
-                            <div class="hero-btn">
-                                <a class="btn" href="#contact">Hire Me</a>
-                                <a class="btn" href="#contact">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-
-                    </div>
-                </div>
-            </div>
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Про нас</h2>
+            
+          </div>
         </div>
-        <!-- Hero End -->
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src="images/img_2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <h3 class="text-black mb-4">Ми вирішуємо ваші фінансові проблеми</h3>
 
+            <p>Кредитна спілка "ДОБРОБУТ" працює на ринку фінансових послуг з 1994 року. Та надає кредити згідно ліцензії на надання коштів у позику, в тому числі на надання фінансового кредиту.</p>
 
-        <!-- About Start -->
-        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/DMYTRO.png" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header text-left">
-                                <p>Learn About Me</p>
-                                <h2>1 Years Experience</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    I am a beginner programmer. I can make a nice and handsome website for any of your purposes, have skills in HTML, CSS and JS.You can verify this by clicking on the portfolio link.
-                                </p>
-                            </div>
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Web Design</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Web Development</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+            <p>Головною метою діяльності кредитної спілки є фінансовий та соціальний захист членів спілки. А також забезпечення їх потреб у взаємному кредитуванні та поліпшенню добробуту.</p>
+            
+          </div>
+        </div>    
+        
+      </div>  
+    </div>
 
+    <div class="container mb-5">
+      <h2 class=" section-title mb-5 aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="">Переваги співпраці з нами</h2>
 
-                            </div>
-                            <a class="btn" href="">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-        
-        
-        <!-- Service Start -->
-        <div class="service" id="service">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What I do</p>
-                    <h2>Awesome Quality Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Design</h3>
-                                <p>
-                                    Website creation and maintenance, graphic web design, interface design, usability and search engine optimization.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Development</h3>
-                                <p>
-                                    The main stages of the process are page layout, client-side and server-side web programming, and web server configuration.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-        
-        
-         <!-- Experience Start -->
-        <div class="experience" id="experience" >
-            <div class="container">
-                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Resume</p>
-                    <h2>Working Experience</h2>
-                </header>
-                <div class="timeline">
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2020 - 2021</div>
-                            <h2>ORT Dnipro</h2>
-                            <h4>Web design school, Dnipro, UA</h4>
-                            <p>
-                                ORT is one of the best design schools in Dnipro. She has over 500 successful students.
-                            </p>
-                        </div>
-                    </div>
-                    <div  class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2021 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div style="display: none;" class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div style="display: none;" class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div style="display: none;" class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div style="display: none;" class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Job Experience End -->
-        
-        
-        <!-- Banner Start -->
-        <div style="display: none;"  class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Reasonable Price</p>
-                    <h2>Get A <span>Special</span> Price</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
-                    </p>
-                    <a class="btn">Pricing Plan</a>
-                </div>
-            </div>
-        </div>
-        <!-- Banner End -->
+      <div class="pgrid text-light">
 
+         <div class="pelement bg-success">
+           <h2 class="m-3 mb-1  text-center"><i class="fas fa-comments-dollar"></i> Доступність</h2>
+            <p class="p-3 pt-1  text-justify ">Зрозумілі профісіональні консультації менеджерів з надання кредитів.</p>
+          </div>
+          <div class="pelement bg-warning">
+            <h2 class="m-3 mb-1 text-center" ><i class="fas fa-tachometer-alt"></i> Швидкість</h2>
+            <p class="p-3 pt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi?</p>
+          </div>
+          <div class="pelement red ">
+            <h2 class="m-3 mb-1 text-center"><i class="fas fa-money-bill-wave"></i> Готівка</h2>
+            <p class="p-3 pt-1 text-justify">Надаємо кредит готівкою.</p>
+          </div>
+          <div class="pelement  indigo">
+            <h2 class="m-3 mb-1 text-center"><i class="fas fa-balance-scale"></i> Стабільність</h2>
+            <p class="p-3 pt-1 text-justify">Не змінюємо умови кредитування.</p>
+          </div>
 
-        <!-- Portfolio Start -->
-        <div  class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
-                </div>
-                <div class="row">
-                    
-                </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>eCommerce Website</h3>
-                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Product Landing Page</h3>
-                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript quiz game</h3>
-                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript drawing</h3>
-                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Social Mobile Apps</h3>
-                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Company Website</h3>
-                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio End -->
-        
-        
-        <!-- Banner Start -->
-        <div style="display: none;" class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Awesome Discount</p>
-                    <h2>Get <span>30%</span> Discount</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
-                    </p>
-                    <a class="btn">Order Now</a>
-                </div>
-            </div>
-        </div>
-        <!-- Banner End -->
-        
-        
-        <!-- Price Start -->
-        <div style="display: none;" class="price" id="price">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Pricing Plan</p>
-                    <h2>Affordable Price</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Basic</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>49<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="price-item featured-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Standard</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>99<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Premium</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>149<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Price End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
-            <div class="container">
-                <div class="testimonial-icon">
-                    <i class="fa fa-quote-left"></i>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+      </div>
 
+    </div>
 
-        <!-- Team Start -->
-        <div style="display: none;"  class="team" id="team">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Team</p>
-                    <h2>Expert Team Members</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Mollie Ross</h2>
-                                <h4>Web Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Dylan Adams</h2>
-                                <h4>Web Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Jennifer Page</h2>
-                                <h4>Apps Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Josh Dunn</h2>
-                                <h4>Apps Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-        
-        
-        <!-- Contact Start -->
-        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
+    <div id="credit-section">
+      <h2 class=" section-title mb-3 aos-init aos-animate text-center p-htitle" data-aos="fade-up" data-aos-delay="">Отримати кредит легко</h2>
 
+      <div class="bg-light">
+        <div class="container">
 
-        <!-- Blog Start -->
-        <div class="blog" id="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Articles</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Web Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>5</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
+        <h2 class="text-center text-black">Кредитний калькулятор</h2>
 
-
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-info">
-                        <h2>Dmytro Zavhorodnii</h2>
-                        
-                        <div class="footer-menu">
-                            <p>+38(093) 389 0210</p>
-                            <p>Ceres-VIII@outlook.com</p>
-                        </div>
-                        <div class="footer-social">
-                            <a href="https://twitter.com/6LqfASFX3NISfUB"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100015431321239"><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/dmitriizavgorodniy/"><i class="fab fa-instagram"></i></a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <p>&copy; <a href="#">CeresDesign</a>, All Right Reserved </p>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        
-        <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
+        <div class="calculator fs-4">
+          <div class="mt-2">
+            <label class="text-info d-block" for="timeh">Введіть срок (в місяцях)</label>
+            <input type="number" min = "1" max="36" step="1" value="12" id="timeh" >
+            міс.
+          </div>
+          <div class="mt-2">
+            <label class="text-info  d-block" for="sumh">Введіть суму (в грн)</label>
+            <input type="number" min = "100" max="400000" step="100" value="10000" id="sumh" >
+            грн
+          </div>
+          
+          <div>
+            <button class="btn btn-info text-light fw-bolder fs-5 mt-5" id="calculate" onclick="calc()">Розрахувати</button>
+          </div>
         </div>
 
+        <table class="mt-3 mb-3 fs-4" id="credittable">
+            
+        </table>
+          <script src="./js/credit.js"></script>
         
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
         
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+      </div>
+      </div>
+    <div class="container">
+      <ul class="resume-list">
+        <li>
+          <h3 class="text-black ">Шаг #1</h3>
+          <p class="fs-5 text-dark">З'єднатися з нами за телефоном: +38(067)5672323 або +38(050)3251005; та залишити заявку на отримання кредиту.</p>
+        </li>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+        <li>
+          <h3 class=" text-black">Шаг #2</h3>
+          <p class="fs-5 text-dark">Отримати схему погашення кредиту.</p>
+        </li>
+
+        <li>
+          <h3 class="text-black  ">Шаг #3</h3>
+          <p class="fs-5 text-dark">Належним чином оформити документи на отримання кредиту.</p>
+        </li>
+        <li>
+          <h3 class="text-black ">Шаг #4</h3>
+          <p class="fs-5 text-dark">Отримати кредит готівкою</p>
+        </li>
+      </ul>
+
+    </div>
+    
+         <div class=" container" id="deposit-section" style="display: none;">
+          <h2 class=" section-title mb-3 aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="">Депозити</h2>
+
+          <ul>
+            <li class="text-dark">
+              <h3>Мінімальна і максимальна сума.</h3>
+              <p class="text-secondary"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam laboriosam obcaecati natus excepturi omnis, cumque fugit beatae cum pariatur expedita modi amet magni nihil veritatis, velit, sit nulla quas! Ex!</p>
+            
+            </li>
+            <li class="text-dark">
+              <h3>Максимальна сума поповнення протягом календарного місяця.</h3>
+              <p class="text-secondary"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam laboriosam obcaecati natus excepturi omnis, cumque fugit beatae cum pariatur expedita modi amet magni nihil veritatis, velit, sit nulla quas! Ex!</p>
+            
+            </li>
+            <li class="text-dark">
+              <h3>Дострокове розірвання вкладу.</h3>
+              <p class="text-secondary"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam laboriosam obcaecati natus excepturi omnis, cumque fugit beatae cum pariatur expedita modi amet magni nihil veritatis, velit, sit nulla quas! Ex!</p>
+            </li>
+            <li class="text-dark">
+              <h3>Відмова від продовження вкладу.</h3>
+              <p class="text-secondary"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam laboriosam obcaecati natus excepturi omnis, cumque fugit beatae cum pariatur expedita modi amet magni nihil veritatis, velit, sit nulla quas! Ex!</p>
+            </li>
+          </ul>
+
+         </div>
+
+    <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title  mb-3">Зв'язок з нами</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span class="text-info">проспект Мануйлівський 11, м.Дніпро, Дніпропетровська область</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <span class="text-info">+38(067) 567 23 23</span><br>
+              <span class="text-info">+38(050) 325 10 05</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <span class="text-info">dobrobutdnepr@gmail.com</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            
+
+            <form action="#" class="p-5 bg-white">
+              
+              
+
+              <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6288.73184309531!2d35.05031098086446!3d48.49324121451849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57d572aa95388a69!2z0JrRgNC10LTQuNGC0L3QsCDRgdC_adC70LrQsCAi0JTQvtCx0YDQvtCx0YPRgiI!5e0!3m2!1suk!2sua!4v1622538739033!5m2!1suk!2sua" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe></iframe>
+              </div>
+
+  
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="site-footer">
+      <div class="container text-center">
+        
+        
+          
+            <div class="border-top ">
+              
+              <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+                by <a href="https://ceres-viii.github.io/" target="_blank">Ceres</a>
+              </p>
+             
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+
+  
+  </body>
 </html>
