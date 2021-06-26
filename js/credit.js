@@ -7,13 +7,12 @@ function calc(){
     let credit = sum*time*rate+sum;
     let pay = credit/time;
     console.log(credit);
-    credittable.innerHTML ="<tr><th class='month'>Місяць</th><th>Борг</th><th>Відсотки</th><th>До сплати</th></tr>";
-    for (let i = 1; i <= time; i++){
+
         credit = Math.round(credit);
         pay = Math.round(pay);
-        credittable.innerHTML +=`<tr><td class="month">${i}</td><td>${credit} грн</td><td>${Math.round(sum*rate)} грн</td><td>${pay} грн</td></tr>`;
-        credit = credit - pay;
-    }
+        outplace.innerHTML='<div class="mt-2"><p class="text-info">Щомісячний платіж:</p><span class="fs-3"  id="payout" ></span> грн</div><div class="mt-2"><p class="text-info" for="sumh">Відсотки:</p><span class="fs-3"   id="sumout"></span> грн</div>'
+        payout.innerHTML = pay;
+        sumout.innerHTML = Math.round(sum*time*rate);
 
     
 }
